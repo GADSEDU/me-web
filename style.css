@@ -1,0 +1,259 @@
+*{
+     margin: 0;
+     padding: 0;
+}
+
+body {
+     width: 100%;
+     height: 100%;
+}
+
+body, html {
+     font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+     display: block;
+     position: fixed;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 70px;
+     background-color: #ddd;
+     display: grid;
+     grid-template-columns: 1fr;
+ }
+
+ .active {
+     margin: 20px;
+     color: #777;
+ }
+ /*
+ .nav-closer{
+     display: flex;
+     justify-content: space-between;
+     padding: 10px;
+ }
+ 
+ .left-float{
+     display: flex;
+ }
+ 
+ .nav-closer > .left-float {
+     margin-right: 20px;
+     font-weight: bold;
+     font-size: 0.9em;
+     text-transform: uppercase;
+ }
+ 
+ .nav-link-closer{
+     list-style-type: none;
+     padding: 5px;
+     border-bottom: 2px solid transparent;
+     transition: border-bottom 0.5s;
+ }
+ 
+ .nav-link-closer > a {
+     color: #000;
+     text-decoration: none;
+     transition: color 0.5s;
+ }
+ 
+ .nav-link-closer:hover {
+     border-bottom: 1px solid #808080;
+ }
+ 
+ .nav-link-closer a:hover {
+     color: #8a8a8a;   
+ }*/
+
+main {
+    display: block;
+    margin: 50px;
+} 
+
+aside img {
+     display: block;
+     width: 100%;
+     margin-top: 0;
+     margin-top: 100px;
+     margin-bottom: 10px;
+     border-radius: 50%;
+     box-shadow: 1px 1px 20px 1px;
+} 
+
+article {
+    display: block;
+    
+} 
+
+.name {
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+h1 {
+    display: block;
+    margin-top: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+#head {
+    color: #008000;
+}
+
+.main-docs {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main-docs img {
+    border: 1px solid #000;
+    margin: 10px;
+}
+
+.skills {
+    display: flex;
+    justify-content: center;
+}
+
+#user {
+    color: #2e8b57;
+    font-size: 20px;
+    text-align: center;
+}
+
+#btn {
+    background-color: #ddf5dd;
+    font-weight: bold;
+    color: #008000;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+}
+
+footer {
+    display: block;
+    text-align: center;
+    margin-top: 5px;
+    padding: 20px;
+}
+
+/*New nav*/
+.nav {
+    background: #ddd;
+    position: absolute;
+    right: 0;
+    box-shadow: 0 0 3em rgba(0, 0, 0, .15);
+    transform: translateX(100%);
+    transition: transform 300ms cubic-bezier(.5, 0, .5, 1);
+}
+
+.nav-list {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    padding: 1.5em 3em;
+}
+
+.nav-item {
+    margin-bottom: 3em;
+}
+.nav-link {
+    text-decoration: underline;
+}
+
+.nav-link:hover {
+    background-color: #777;
+    width: 100%;
+    text-decoration: underline;
+    color: #ddd;
+}
+
+.nav-toggle {
+    position: absolute;
+    top: 1.2em;
+    left: 0;
+    transform: translateX(-100%);
+    background: #777;
+    padding: 1em .25em;
+    border: 0;
+    border-radius: .25em 0 0 .25em;
+}
+
+.hamburger {
+    display: block;
+    position: relative;
+}
+
+.hamburger,
+.hamburger::before,
+.hamburger::after {
+    width: 2em;
+    height: 3px;
+    background: #ccc;
+    transition: transform 350ms ease-in-out, opacity 200ms linear;
+}
+
+.hamburger::before,
+.hamburger::after {
+    content: '';
+    position: absolute;
+    left: 0;
+}
+
+.hamburger::before {
+    bottom: 6px;
+}
+
+.hamburger::after {
+    top: 6px;
+}
+
+.nav-open .nav {
+    transform: translateX(0);
+}
+
+.nav-open .hamburger {
+    transform: rotate(45deg);
+}
+
+.nav-open .hamburger::before {
+    opacity: 0;
+}
+
+.nav-open .hamburger::after {
+    transform: rotate(90deg) translate(-6px);
+}
+
+@media screen and (min-width: 578px) {
+    h1 {
+        text-align: center;
+    }
+    
+    aside img {
+        display: block;
+        width: 35%;
+        margin-left: 33%;
+        border-radius: 50%;
+   } 
+   .mb {
+       width: 35%;
+       margin-left: 33%;
+   }
+
+   .main-docs img {
+       width: 50%;
+       margin-left: 20%;
+    }
+
+
+   
+}
