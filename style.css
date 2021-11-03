@@ -28,44 +28,7 @@ header {
      margin: 20px;
      color: #777;
  }
- /*
- .nav-closer{
-     display: flex;
-     justify-content: space-between;
-     padding: 10px;
- }
  
- .left-float{
-     display: flex;
- }
- 
- .nav-closer > .left-float {
-     margin-right: 20px;
-     font-weight: bold;
-     font-size: 0.9em;
-     text-transform: uppercase;
- }
- 
- .nav-link-closer{
-     list-style-type: none;
-     padding: 5px;
-     border-bottom: 2px solid transparent;
-     transition: border-bottom 0.5s;
- }
- 
- .nav-link-closer > a {
-     color: #000;
-     text-decoration: none;
-     transition: color 0.5s;
- }
- 
- .nav-link-closer:hover {
-     border-bottom: 1px solid #808080;
- }
- 
- .nav-link-closer a:hover {
-     color: #8a8a8a;   
- }*/
 
 main {
     display: block;
@@ -134,6 +97,32 @@ h1 {
     padding: 10px;
     border-radius: 8px;
     border: none;
+}
+
+.res-work {
+    width: 100%;
+    padding: 20px
+    margin-left: 5%;
+    background-color: #000;
+    font-size: 2em;
+    color: #fff;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.art-head {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.author {
+    color: #008000;
+    font-size: bold;
+    text-align: center;
+}
+
+.abstract {
+    text-align: center;
 }
 
 footer {
