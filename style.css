@@ -24,115 +24,6 @@ header {
      grid-template-columns: 1fr;
  }
 
- .active {
-     margin: 20px;
-     color: #777;
- }
- 
-
-main {
-    display: block;
-    margin: 50px;
-} 
-
-aside img {
-     display: block;
-     width: 100%;
-     margin-top: 0;
-     margin-top: 100px;
-     margin-bottom: 10px;
-     border-radius: 50%;
-     box-shadow: 1px 1px 20px 1px;
-} 
-
-article {
-    display: block;
-    
-} 
-
-.name {
-    margin-bottom: 20px;
-    font-weight: bold;
-    text-align: center;
-}
-
-h1 {
-    display: block;
-    margin-top: 20px;
-    font-size: 30px;
-    text-align: center;
-}
-
-#head {
-    color: #008000;
-}
-
-.main-docs {
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.main-docs img {
-    border: 1px solid #000;
-    margin: 10px;
-}
-
-.skills {
-    display: flex;
-    justify-content: center;
-}
-
-#user {
-    color: #2e8b57;
-    font-size: 20px;
-    text-align: center;
-}
-
-#btn {
-    background-color: #ddf5dd;
-    font-weight: bold;
-    color: #008000;
-    padding: 10px;
-    border-radius: 8px;
-    border: none;
-}
-
-.res-work {
-    width: 100%;
-    padding: 20px
-    margin-left: 5%;
-    background-color: #000;
-    font-size: 2em;
-    color: #fff;
-    text-align: center;
-    border-radius: 8px;
-}
-
-.art-head {
-    margin-top: 50px;
-    text-align: center;
-}
-
-.author {
-    color: #008000;
-    font-size: bold;
-    text-align: center;
-}
-
-.abstract {
-    text-align: center;
-}
-
-footer {
-    display: block;
-    text-align: center;
-    margin-top: 5px;
-    padding: 20px;
-}
-
-/*New nav*/
 .nav {
     background: #ddd;
     position: absolute;
@@ -221,6 +112,122 @@ footer {
 .nav-open .hamburger::after {
     transform: rotate(90deg) translate(-6px);
 }
+
+ .active {
+     margin: 20px;
+     color: #777;
+ }
+ 
+
+main {
+    display: block;
+    margin: 50px;
+} 
+
+aside img {
+     display: block;
+     width: 100%;
+     margin-top: 0;
+     margin-top: 100px;
+     margin-bottom: 10px;
+     border-radius: 50%;
+     box-shadow: 1px 1px 20px 1px;
+} 
+
+article {
+    display: block;
+    
+} 
+
+.name {
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+h1 {
+    display: block;
+    margin-top: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+#head {
+    color: #008000;
+}
+
+.main-docs {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main-docs img {
+    border: 1px solid #000;
+    margin: 10px;
+}
+
+.skills {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#clock {
+    color: blue;
+    text-align: center;
+}
+
+#user {
+    color: #2e8b57;
+    font-size: 20px;
+    text-align: center;
+}
+
+#btn {
+    background-color: #ddf5dd;
+    font-weight: bold;
+    color: #008000;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+}
+
+.res-work {
+    width: 100%;
+    padding: 20px
+    margin-left: 5%;
+    background-color: #000;
+    font-size: 2em;
+    color: #fff;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.art-head {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.author {
+    color: #008000;
+    font-size: bold;
+    text-align: center;
+}
+
+.abstract {
+    text-align: center;
+}
+
+footer {
+    display: block;
+    text-align: center;
+    margin-top: 5px;
+    padding: 20px;
+}
+
+
 
 @media screen and (min-width: 578px) {
     h1 {
