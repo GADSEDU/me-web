@@ -169,18 +169,36 @@ h1 {
 }
 
 .skills {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+    display: block;
+    width: 75%;
+    margin-left: 25%;
+}
+
+.arc {
+    display: block;
+    width: 75%;
+    background-color: #c6e299;
+}
+
+.csc {
+    display: block;
+    width: 75%;
+    background-color: #4be7a6;
+}
+
+.edu {
+    display: block;
+    width: 75%;
+    background-color: #4bbbe7;
 }
 
 #clock {
-    color: blue;
+    color: #0000ff;
     text-align: center;
 }
 
 #user {
-    color: #2e8b57;
+    color: #008000;
     font-size: 20px;
     text-align: center;
 }
@@ -194,7 +212,7 @@ h1 {
     border: none;
 }
 
-.res-work {
+/*.res-work {
     width: 100%;
     padding: 20px
     margin-left: 5%;
@@ -203,7 +221,7 @@ h1 {
     color: #fff;
     text-align: center;
     border-radius: 8px;
-}
+}*/
 
 .art-head {
     margin-top: 50px;
@@ -239,17 +257,21 @@ footer {
         width: 35%;
         margin-left: 33%;
         border-radius: 50%;
-   } 
+       } 
    .mb {
-       width: 35%;
-       margin-left: 33%;
-   }
+       width: 75%;
+       margin-left: 12%;
+      }
 
    .main-docs img {
        width: 50%;
-       margin-left: 20%;
+       margin-left: 25%;
+      }
+
+    .skills {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
     }
-
-
    
 }
