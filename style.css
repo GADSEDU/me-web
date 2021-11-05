@@ -147,8 +147,9 @@ article {
 
 h1 {
     display: block;
-    background-color: #000;
-    color: #fff;
+    background-color: #c3e2a6;
+    opacity: 80%;
+    color: #0a0a0a;
     padding: 10px;
     margin-top: 20px;
     font-size: 30px;
@@ -177,27 +178,43 @@ h1 {
     margin: 20px;
 }
 
+.skills ul li {
+    list-style-type: none;
+}
+
 .arc {
     display: block;
     width: 75%;
+    padding: 10px;
+    margin: 5px;
     background-color: #c6e299;
 }
 
 .csc {
     display: block;
     width: 75%;
+    padding: 10px;
+    margin: 5px;
     background-color: #4be7a6;
 }
 
 .edu {
     display: block;
     width: 75%;
+    padding: 10px;
+    margin: 5px;
     background-color: #4bbbe7;
 }
 
 #clock {
     color: #0000ff;
     text-align: center;
+}
+
+#date {
+    text-align: center;
+    margin-left: 25%;
+    width: 50%;
 }
 
 #user {
@@ -252,6 +269,8 @@ footer {
 
 @media screen and (min-width: 578px) {
     h1 {
+        width: 50%;
+        margin-left: 25%;
         text-align: center;
     }
     
