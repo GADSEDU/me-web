@@ -53,6 +53,6 @@ const display = document.getElementById('clock');
 
 //function
 
-function setAlarm() {
-     
-}
+//Date setting
+let date = new Date()
+document.getElementById('date').textContent = date;

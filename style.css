@@ -176,30 +176,45 @@ h1 {
     display: block;
     width: 100%;
     margin: 20px;
-    opacity: 80%;
+}
+
+.skills ul li {
+    list-style-type: none;
 }
 
 .arc {
     display: block;
     width: 75%;
+    padding: 10px;
+    margin: 5px;
     background-color: #c6e299;
 }
 
 .csc {
     display: block;
     width: 75%;
+    padding: 10px;
+    margin: 5px;
     background-color: #4be7a6;
 }
 
 .edu {
     display: block;
     width: 75%;
+    padding: 10px;
+    margin: 5px;
     background-color: #4bbbe7;
 }
 
 #clock {
     color: #0000ff;
     text-align: center;
+}
+
+#date {
+    text-align: center;
+    margin-left: 25%;
+    width: 50%;
 }
 
 #user {
