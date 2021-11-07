@@ -69,11 +69,22 @@ field.onfocus = function () {
 }
 
 field.onblur = function () {
-  //this.setAttribute('placeholder', backup);
- //this.style.borderColor = '#aaa';
+  this.setAttribute('placeholder', backup);
+  this.style.borderColor = '#aaa';
 }
 
 clear.onclick = function() {
-  //btn.style.display = 'none';
-  //field.value = '';
+  btn.style.display = 'none';
+  field.value = '';
+}
+
+let name = '';
+let comment = '';
+
+function save() {
+  name = document.getElementById('name').value;
+  comment = document.getElementById('comment').value;
+  
+  firebase.database().ref('/').child(`${name} : ${comment}`).update;
+
 }
