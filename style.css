@@ -162,6 +162,11 @@ h3, h4 {
     margin: 10px;
 }
 
+h5 {
+    text-align: center;
+    margin: 10px;
+}
+
 .main-docs {
     display: flex;
     flex-wrap: nowrap;
@@ -180,9 +185,6 @@ h3, h4 {
     margin: 20px;
 }
 
-.skills ul li {
-    list-style-type: none;
-}
 
 .arc {
     display: block;
@@ -252,11 +254,20 @@ h3, h4 {
 
 .author {
     color: #008000;
-    font-size: bold;
+    
     text-align: center;
 }
 
+.conti {
+    color: #ff0000;
+}
+
 .abstract {
+    text-align: center;
+}
+
+.keywords {
+    margin-top: 20px;
     text-align: center;
 }
 
@@ -272,10 +283,10 @@ h3, h4 {
 
 .container-com {
     width: 100%;
-    margin: 2%;
+    margin: 5%;
     padding: 15px 10px;
     margin-top: 15px;
-    border: 1px solid #ccc;
+    /*border: 1px solid #ccc;*/
 }
 
 .container-com h3 {
@@ -338,7 +349,7 @@ footer {
     }
 
     .container-com {
-        width: 50%;
-        margin-left: 25%;
+        width: 75%;
+        margin-left: 12%;
     }
 }
