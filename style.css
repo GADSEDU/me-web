@@ -294,6 +294,11 @@ h5 {
     margin-bottom: 15px;
 }
 
+input {
+    width: 75%;
+    margin: 5%;
+}
+
 textarea {
     height: 20px;
     width: 100%;
