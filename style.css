@@ -270,6 +270,14 @@ h5 {
     margin-bottom: 15px;
 }
 
+#alert-msg {
+    width: auto;
+    color: #ff0000;
+    background-color: #e2f0eb;
+    margin-top: 15px;
+    text-align: center;
+}
+
 .container-com {
     width: 100%;
     padding: 15px 10px;
