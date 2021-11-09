@@ -18,6 +18,16 @@ navToggle.addEventListener('click', () => {
 
 //alert('connected');
 
+//download button
+
+function download() {
+  let dmsg = 'Full Paper not available now. Once published, it will be accessible!';
+  const download = document.querySelector('#download');
+  download.addEventListener('click', () => {
+    document.getElementById('alert-msg').textContent = dmsg;
+  });
+}
+
 const display = document.getElementById('clock');
           //const audio = new Audio('');
           //audio.loop = true;
@@ -88,3 +98,4 @@ function save() {
   firebase.database().ref('/').child(`${name} : ${comment}`).update;
 
 }
+
