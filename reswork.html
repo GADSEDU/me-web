@@ -199,8 +199,19 @@
                          </form>
                          <div id="message-wrapper"></div>
                          <form action="" id="send-wrapper">
-                              <input type="text" id="message-input">
-                              <button type="submit" id="send-button" class="btn btn-primary">Send</button>
+                              <!--<input type="text" id="message-input">
+                              <button type="submit" id="send-button" class="btn btn-primary">Send</button>-->
+                                 <div class="mb-3">
+                                   <label for="text" class="form-label">Name</label>
+                                   <input type="text" class="form-control" id="name" placeholder="Enter your name here">
+                                 </div>
+                                 <div class="mb-3">
+                                   <label for="textarea" class="form-label">Type your comment here</label>
+                                   <textarea class="form-control" id="textarea" cols="5" rows="3"></textarea>
+                                 </div>
+                                 <div class="mb-3">
+                                   <button class="btn btn-success" id="">Send comment</button>
+                                 </div>
                          </form>
                     </div>
                </div>
