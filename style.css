@@ -121,7 +121,7 @@ header {
 
 main {
     display: block;
-    margin: 50px;
+    margin: 25px;
 } 
 
 aside img {
@@ -136,7 +136,6 @@ aside img {
 
 article {
     display: block;
-    
 } 
 
 .name {
@@ -147,6 +146,7 @@ article {
 
 h1 {
     background-color: #c3e2a6;
+    font-weight: bold;
     color: #0a0a0a;
     padding: 10px;
     margin-top: 20px;
@@ -176,7 +176,7 @@ h5 {
 
 .main-docs img {
     border: 1px solid #000;
-    margin: 10px;
+    margin: 20px;
 }
 
 .skills {
@@ -236,17 +236,6 @@ h5 {
     border: none;
 }
 
-/*.res-work {
-    width: 100%;
-    padding: 20px
-    margin-left: 5%;
-    background-color: #000;
-    font-size: 2em;
-    color: #fff;
-    text-align: center;
-    border-radius: 8px;
-}*/
-
 .art-head {
     margin-top: 50px;
     text-align: center;
@@ -283,7 +272,6 @@ h5 {
 
 .container-com {
     width: 100%;
-    margin: 5%;
     padding: 15px 10px;
     margin-top: 15px;
     /*border: 1px solid #ccc;*/
@@ -296,10 +284,16 @@ h5 {
 
 input {
     width: 100%;
-    margin: 5%;
+    margin: 0;
 }
 
 textarea {
+    height: 20px;
+    width: 100%;
+    resize: vertical;
+}
+
+/*textarea {
     height: 20px;
     width: 100%;
     border: none;
@@ -310,7 +304,7 @@ textarea {
     outline: none;
 }
 
-/*.btn {
+.btn {
     display: none;
 }*/
 
