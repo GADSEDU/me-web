@@ -182,11 +182,14 @@ h5 {
 .skills {
     display: block;
     width: 100%;
-    margin: 20px;
+    margin-left: 10%;
 }
 
+.child-skill {
+    padding-left: 20px;
+}
 
-.arc {
+#arc {
     display: block;
     width: 75%;
     padding: 10px;
@@ -194,7 +197,7 @@ h5 {
     background-color: #c6e299;
 }
 
-.csc {
+#csc {
     display: block;
     width: 75%;
     padding: 10px;
@@ -202,7 +205,7 @@ h5 {
     background-color: #4be7a6;
 }
 
-.edu {
+#edu {
     display: block;
     width: 75%;
     padding: 10px;
@@ -270,7 +273,7 @@ h5 {
     margin-bottom: 15px;
 }
 
-#alert-msg {
+#alert {
     width: auto;
     color: #ff0000;
     background-color: #e2f0eb;
