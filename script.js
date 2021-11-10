@@ -21,13 +21,17 @@ navToggle.addEventListener('click', () => {
 //download button
 
 function download() {
-  let dmsg = 'Full Paper not available now. Once published, it will be accessible!';
+  const dmsg = 'Full Paper not available now. Once published, it will be accessible!';
   const download = document.querySelector('#download');
   download.addEventListener('click', () => {
-    document.getElementById('alert-msg').textContent = dmsg;
+  document.getElementById('alert').textContent = dmsg;
+
+    setTimeout(() => dmsg.remove(), 3000);
   });
 }
 
+
+//clock
 const display = document.getElementById('clock');
           //const audio = new Audio('');
           //audio.loop = true;
